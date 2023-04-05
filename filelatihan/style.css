@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px/1.6em georgia, arial, sans-serif, times;
+    background-color: #eaeaea;
+    color: #666666;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: brown;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+.header .judul2 {
+    margin-top: 10px;
+    color: pink;
+}
+
+nav {
+    text-align: center;
+    height: 30px;
+    background-color: grey;
+    margin-bottom: 60px;
+}
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: #ffffff;
+    margin-right: 30px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: lightblue;
+    color: salmon;
+    font-size: 20px;
+}
+
+/* class content */
+.content {
+    overflow: auto;
+    
+}
+.main {
+    width: 700px;
+    box-sizing: border-box;
+    border-right: 2px solid #eeeeee;
+    float: left;
+}
+article {
+    padding: 20px;
+}
+article p{
+    text-align: justify;
+}
+figure {
+    width: 200px;
+    border: 2px solid #eee;
+    float: left;
+    margin-right: 20px;
+}
+figcaption {
+    text-align: center;
+    color: salmon;
+}
+.clear {
+    clear: both;
+}
+
+/* class sidebar */
+.sidebar {
+    float: right;
+    width: 230px;
+    box-sizing: border-box;
+    padding-right: 20px;
+    line-height: 2.0em;
+}
+.masakanpopuler a , .kontak p{
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #de1212;
+    color: #de1212;
+}
+
+.masakanpopuler, .kontak, .thanks {
+  margin-top: 30px;
+}
+
+.kontak p{
+    color: #de1212;
+}
+.footer{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
